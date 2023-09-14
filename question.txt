@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Converting string to char and char to string.
+
+from atoi function, can be found at (rush01)
+res = res * 10 + (*str - '0');
+
+from print_tablero, can be found at (rush01)
+ft_putchar(tablero[i][j] + '0');
+
+CHECKED
+
+ascii value 48, the first 0 you see in man ascii is a none printble character because it is a number, the non printable 0 and the printable 0 are separeted by 48 values, so if you want to convert int to char or char to int you can do +- 48 || +- '0'
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Recursive functions like game before piscine? if it is executed 3 times it will do the next part 3 times
+
+CHECKED
+
+yes, it does execute all those times
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Pointer strings and arrays. We don't need pointer to change an array, but we can't change strings without pointers, right?
+Search for string literal
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+String literals (char *str = "hola"). Inmutables, tienen null terminator
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+cd ProyectosAcabados/exam_test/tree_abc/solo.c
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
